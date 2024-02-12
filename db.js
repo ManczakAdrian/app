@@ -4,11 +4,11 @@ const connectToDB = () => {
     let dbUri = `mongodb://0.0.0.0:27017/ads`;
 
     mongoose.connect(dbUri, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-  });
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+    });
 
-  const db = mongoose.connection;
+    const db = mongoose.connection;
 
 	// on success
 	db.once('open', () => {
