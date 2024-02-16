@@ -1,3 +1,21 @@
+import { Container } from "react-bootstrap";
+import{ Route, Routes} from 'react-router-dom';
+
+import Header from './components/views/Header/Header';
+import Footer from './components/views/Footer/Footer';
+
+import Home from './components/pages/Home/Home';
+import Ad from '/components/pages/Ad/Ad';
+import AdAdd from '/components/pages/AdAdd/AdAdd';
+import AdEdit from '/components/pages/AdEdit/AdEdit';
+import AdRemove from '/components/pages/AdRemove/AdRemove';
+import Search from '/components/pages/Search/Search';
+import Login from '/components/pages/Login/Login';
+import Register from '/components/pages/Register/Register';
+import Logout from '/components/pages/Logout/Logout';
+import NotFound from '/components/pages/NotFound/NotFound';
+
+
 
 
 const App=()=>{
