@@ -1,7 +1,14 @@
+import { Container,Nav, NavBar } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
+
 const NavBar =()=>{
     return(
+        <Navbar
+        bg="primary"
+        variant="dark"
+        expand="lg"
+        className="mt-4 mb-4 rounded">
 
-className="mt-4 mb-4 rounded"
 <Container>
     <Navbar.Brand>Ads.app </Navbar.Brand>
 
@@ -10,10 +17,13 @@ className="mt-4 mb-4 rounded"
             <Nav.Link to="/" as={NavLink}>
                 Home
             </Nav.Link>
+            <NavLink to="/logout" as={NavLink}>
+                Sign out
+            </NavLink>
 
         </Nav>
     </Navbar.Collapse>
-<Container/>
+</Container>
 </Navbar>
 
 );
