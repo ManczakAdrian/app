@@ -1,5 +1,5 @@
 import Button from 'react-bootstrap/Button';
-import Form from 'ract-bootstrap/Form';
+import Form from 'react-bootstrap/Form';
 import Alert from 'react-bootstrap/Alert';
 import Spinner from 'react-bootstrap/Spinner';
 import {useDispatch } from 'react-redux';
