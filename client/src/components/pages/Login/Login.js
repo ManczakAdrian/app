@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'ract-bootstrap/Form';
 import Alert from 'react-bootstrap/Alert';
 import Spinner from 'react-bootstrap/Spinner';
-import { UseDispatch, useDispatch } from 'react-redux';
+import {useDispatch } from 'react-redux';
 import { logIn } from '../../../redux/usersRedux';
 
 import { useState } from 'react';

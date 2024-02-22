@@ -26,7 +26,7 @@ const App=()=>{
   <Header/>
   <Routes>
     <Route path="/" element={<Home/>}/>
-    <Route path="/ad/:id" element={<Add/>}/>
+    <Route path="/ad/:id" element={<Ad/>}/>
     <Route path="/ad/add" element={<AdAdd/>}/>
     <Route path="/ad/edit/:id" element={<AdEdit/>}/>
     <Route path="/ad/romove/:id" element={<AdRemove/>}/>
