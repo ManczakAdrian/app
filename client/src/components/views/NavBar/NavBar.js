@@ -30,5 +30,5 @@ const NavBar =()=>{
 );
 };
 
-export default NavBarr;
+export default NavBar;
 

@@ -14,7 +14,7 @@ import Login from './components/pages/Login/Login';
 import Register from './components/pages/Register/Register';
 import Logout from './components/pages/Logout/Logout';
 import NotFound from './components/pages/NotFound/NotFound';
-import NavBarr from "./components/views/NavBarr/NavBarr";
+import NavBar from "./components/views/NavBar/NavBar";
 
 
 
